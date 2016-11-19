@@ -16,7 +16,7 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class colorCommand {
-    static String[] aliases1 = new String[]{"colour"};
+    static String[] aliases1 = new String[]{"colour", "color2", "colour2"};
     static Set<String> aliases = new HashSet(Arrays.asList(aliases1));
     public static Command cmd = new Command("color").withAliases(aliases).caseSensitive(false).withDescription("This command allows you to change your color!").withUsage(">color [color number] | A list of colors are here: https://track44.moe/colors").onExecuted((context) -> {
         IMessage msg = context.getMessage();
