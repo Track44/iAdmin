@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.discord4j-addons:commands4j:a36464c">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/discord4j-addons/commands4j/a36464c/commands4j-a36464c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/discord4j-addons/commands4j/a36464c/commands4j-a36464c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/discord4j-addons/commands4j/a36464c/commands4j-a36464c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
