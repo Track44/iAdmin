@@ -13,7 +13,7 @@ public class CustomCommandListener {
 
     @EventSubscriber
     public void onMessage(MessageReceivedEvent event) throws RateLimitException, DiscordException, MissingPermissionsException {
-        if(event.getMessage().getContent().startsWith(">") && !iAdmin.registry.getCommandByName(event.getMessage().getContent().substring(1), true).isPresent()) {
+        if(event.getMessage().getContent().startsWith(">") && !iAdmin.registry.getCommandByName(event.getMessage().getContent().substring(1), true).isPresent() || event.getMessage().getContent().startsWith("a") && !iAdmin.registry.getCommandByName(event.getMessage().getContent().substring(1), true).isPresent() || event.getMessage().getContent().startsWith("A") && !iAdmin.registry.getCommandByName(event.getMessage().getContent().substring(1), true).isPresent()) {
             if(iAdmin.commands.containsKey(event.getMessage().getContent().substring(1))) {
                 RequestBuffer.request(() -> {
                     try {
