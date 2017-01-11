@@ -48,7 +48,7 @@ public class colorCommand {
             AtomicBoolean hasRole = new AtomicBoolean(false);
             final IRole[] aRole = new IRole[1];
             context.getMessage().getAuthor().getRolesForGuild(context.getMessage().getGuild()).forEach((role) -> {
-                if(role.getName().contains("color")) {
+                if(role.getName().contains("Color")) {
                     hasRole.set(true);
                     aRole[0] = role;
                 }
